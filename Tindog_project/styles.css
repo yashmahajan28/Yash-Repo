@@ -1,0 +1,162 @@
+#title {
+     background-color: #ff4c68;
+     padding: 3% 15% 15% ;
+     color: #fff;
+     
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 4;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+    
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: azure;
+    position: relative;
+    z-index: 1;
+}
+
+.titleimage{
+    width: 60%;
+    right: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    width: 20%;
+    text-align: center;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    
+    
+}
+
+.navbar{
+    padding-bottom: 1rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.Icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.Icons:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonialsimage{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:3% ;
+
+}
+
+.presslogo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricingcol{
+    padding: 3% 15%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+    
+} 
+
+.ctaheading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.socialions{
+    margin: 20px 10px;
+}
+
+@media (max-width: 600px){
+
+    #title{
+        text-align: center;
+    }
+    .titleimage{
+        position: relative;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
